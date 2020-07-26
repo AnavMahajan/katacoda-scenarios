@@ -28,10 +28,9 @@
     }
   },
     "environment": {
-       "showide": true,
-        "uilayout": "terminal"
+    "uilayout": "vscode-terminal-split"
     },
-  "backend": {
-    "imageid": "node"
-  }
+    "backend": {
+        "imageid": "nodejs:12"
+    }
 }
