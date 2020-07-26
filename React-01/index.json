@@ -28,9 +28,7 @@
     }
   },
     "environment": {
-        "uieditorpath": "/root/react",
-        "showide": true,
-        "idePort": 3000,
+       "showide": true,
         "uilayout": "terminal"
     },
   "backend": {
