@@ -17,10 +17,12 @@
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "editor-terminal",
-	  "showide": true
-  },
+    "environment": {
+        "uieditorpath": "/root/react",
+        "showide": true,
+        "idePort": 3000,
+        "uilayout": "terminal"
+    },
   "backend": {
     "imageid": "java"
   }
