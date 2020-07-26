@@ -1,0 +1,33 @@
+{
+  "title": "Get Started with ReactJs",
+  "description": "Learn how to create first ReactJs project using Create React apps with no build configuration.",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Prerequiste for creating react app",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Creating a React app",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Start the app in development mode",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Verify your first react app",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "node"
+  }
+}

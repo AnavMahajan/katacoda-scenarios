@@ -1,0 +1,1 @@
+In this scenario, you will learn how to create your first React project using create react app . It will explain the essential steps to create the reactjs project without installing or configure tools like webpack or Babel.
