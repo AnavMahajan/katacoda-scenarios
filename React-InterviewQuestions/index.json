@@ -1,10 +1,10 @@
 {
-  "title": "Get Started with ReactJs",
-  "description": "Learn how to create first ReactJs project using Create React apps with no build configuration.",
+  "title": "Top ReactJs Interview Questions",
+  "description": "Learn how to crack your ReactJs interview by preparing confident answers to some of the more common interview reactjs questions",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Prerequiste for creating react app",
+        "title": "Step 1 - Top 50 ReactJS Interview Questions",
         "text": "step1.md"
       },
       {
@@ -22,11 +22,11 @@
     ],
     "intro": {
       "text": "intro.md",
+	  "code": "foreground.sh",
 	  "credits": "Anav Mahajan"
     },
     "finish": {
-      "text": "finish.md",
-	  
+      "text": "finish.md"
     }
   },
     "environment": {
