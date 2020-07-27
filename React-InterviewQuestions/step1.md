@@ -1,6 +1,8 @@
 
 
-## 1. Use the preconfigured Reactjs setup on the right hand side for practicing the code snippits if required.
+## Note: Use the preconfigured Reactjs setup on the right hand side for practicing the code snippits if required.
+
+##
 
 ## 1. What is React?
 
