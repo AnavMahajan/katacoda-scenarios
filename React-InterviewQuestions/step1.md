@@ -1,7 +1,4 @@
-Set up a modern React web app by running one command with no build configuration.
 
-## Top 10 ReactJs Interview Questions
- 
 
 ## 1. What is React?
 
@@ -22,7 +19,7 @@ Uses reusable/composable UI components to develop the view.
 
 JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML). Basically it just provides syntactic sugar for the React.createElement() function, giving us expressiveness of JavaScript along with HTML like template syntax.
 
-In the example below text inside <h1> tag is returned as JavaScript function to the render function.
+In the example below text inside `<h1>` tag is returned as JavaScript function to the render function.
 
 ```class App extends React.Component {
   render() {
@@ -64,10 +61,11 @@ And finally it renders to the DOM using ReactDOM.render():
 Whereas a component can be declared in several different ways. It can be a class with a render() method. Alternatively, in simple cases, it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:
 
 ```const Button = ({ onLogin }) =>
-  <div id={'login-btn'} onClick={onLogin}>Login</div>
+  <div id={'login-btn'} onClick={onLogin}>Login</div>```
+  
 Then JSX gets transpiled to a React.createElement() function tree:
 
-const Button = ({ onLogin }) => React.createElement(
+```const Button = ({ onLogin }) => React.createElement(
   'div',
   { id: 'login-btn', onClick: onLogin },
   'Login'
@@ -80,18 +78,18 @@ There are two possible ways to create a component.
 
 Function Components: This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as first parameter and return React elements:
 
-`function Greeting({ message }) {
+```function Greeting({ message }) {
   return <h1>{`Hello, ${message}`}</h1>
 
-}`{{copy}}
+}```{{copy}}
 
 Class Components: You can also use ES6 class to define a component. The above function component can be written as:
 
-`class Greeting extends React.Component {
+```class Greeting extends React.Component {
   render() {
     return <h1>{`Hello, ${this.props.message}`}</h1>
   }
-}`{{copy}}
+}```{{copy}}
 
 
 ## 6. When to use a Class Component over a Function Component?
@@ -112,7 +110,7 @@ State of a component is an object that holds some information that may change ov
 
 Let's create an user component with message state,
 
-`class User extends React.Component {
+```class User extends React.Component {
   constructor(props) {
     super(props)
 
@@ -128,7 +126,7 @@ Let's create an user component with message state,
       </div>
     )
   }
-}`{{copy}}
+}```{{copy}}
 
 
 State is similar to props, but it is private and fully controlled by the component. i.e, It is not accessible to any component other than the one that owns and sets it.
