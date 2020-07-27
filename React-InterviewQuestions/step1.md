@@ -1,8 +1,8 @@
 
+Learn how to crack your ReactJs interview by preparing confident answers to some of the more common interview reactjs questions.
 
 ## Note: Use the preconfigured Reactjs setup on the right hand side for practicing the code snippits if required.
 
-##
 
 ## 1. What is React?
 
