@@ -1,7 +1,8 @@
 
 Learn how to crack your ReactJs interview by preparing confident answers to some of the more common interview reactjs questions.
 
-## Note: Use the preconfigured Reactjs setup on the right hand side for practicing the code snippits if required.
+## Note
+Use the preconfigured Reactjs setup on the right hand side for practicing the code snippits if required.
 
 
 ## 1. What is React?
@@ -468,15 +469,15 @@ The Virtual DOM works in three simple steps.
 
 Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.
 
-vdom
+![vdom1](./assets/vdom1.png)
 
 Then the difference between the previous DOM representation and the new one is calculated.
 
-vdom2
+![vdom2](./assets/vdom2.png)
 
 Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
 
-vdom3
+![vdom3](./assets/vdom3.png)
 
 
 ## 25. What is the difference between Shadow DOM and Virtual DOM?
@@ -572,11 +573,11 @@ Commit React works with the DOM and executes the final lifecycles respectively c
 
 React 16.3+ Phases (or an interactive version)
 
-phases 16.3+
+![vdom1](./assets/phases16.3.png)
 
 Before React 16.3
 
-phases 16.2
+![vdom1](./assets/phases.png)
 
 
 
