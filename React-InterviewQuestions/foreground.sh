@@ -1,4 +1,6 @@
-echo "This is automatically run when the scenario"
+echo "Setting up React project for pratice"
 
-pwd
-ls -lha
+npm install create-react-app -g
+create-react-app react-Interview-practice --scripts-version 1.1.5
+cd react-Interview-practice
+npm start
