@@ -21,17 +21,15 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-	  "credits": "Anav Mahajan"
+      "text": "intro.md"
     },
     "finish": {
-      "text": "finish.md",
-	  
+      "text": "finish.md"
     }
   },
     "environment": {
     "uilayout": "vscode-terminal-split"
-    },
+},
     "backend": {
         "imageid": "nodejs:12"
     }
