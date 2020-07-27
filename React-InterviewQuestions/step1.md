@@ -1,5 +1,7 @@
 
 
+
+
 ## 1. What is React?
 
 React is an open-source frontend JavaScript library which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
@@ -78,10 +80,12 @@ There are two possible ways to create a component.
 
 Function Components: This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as first parameter and return React elements:
 
-```function Greeting({ message }) {
+``` 
+function Greeting({ message }) {
   return <h1>{`Hello, ${message}`}</h1>
 
-}```{{copy}}
+}
+```{{copy}}
 
 Class Components: You can also use ES6 class to define a component. The above function component can be written as:
 
@@ -110,7 +114,8 @@ State of a component is an object that holds some information that may change ov
 
 Let's create an user component with message state,
 
-```class User extends React.Component {
+```
+class User extends React.Component {
   constructor(props) {
     super(props)
 
@@ -126,7 +131,9 @@ Let's create an user component with message state,
       </div>
     )
   }
-}```{{copy}}
+}
+
+```{{copy}}
 
 
 State is similar to props, but it is private and fully controlled by the component. i.e, It is not accessible to any component other than the one that owns and sets it.
