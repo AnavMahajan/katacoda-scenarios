@@ -6,24 +6,12 @@
       {
         "title": "Step 1 - Top 50 ReactJS Interview Questions",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2 - Creating a React app",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3 - Start the app in development mode",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4 - Verify your first react app",
-        "text": "step4.md"
       }
     ],
     "intro": {
       "text": "intro.md",
 	  "code": "foreground.sh",
-	  "credits": "Anav Mahajan"
+	  "credits": "Created by Anav Mahajan"
     },
     "finish": {
       "text": "finish.md"
