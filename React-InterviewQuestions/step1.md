@@ -137,7 +137,7 @@ class User extends React.Component {
 
 ```{{copy}}
 
-![state](./assets/state.jpg)
+![state](./assets/state.png)
 
 State is similar to props, but it is private and fully controlled by the component. i.e, It is not accessible to any component other than the one that owns and sets it.
 
